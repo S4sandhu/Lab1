@@ -32,11 +32,11 @@
 
     <EditText
         android:id="@+id/myedittext"
-        android:hint="@string/hinttext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
         android:ems="10"
+        android:hint="@string/hinttext"
         android:inputType="text"
         android:text="@string/editmessage"
         app:layout_constraintBottom_toTopOf="@+id/textView"

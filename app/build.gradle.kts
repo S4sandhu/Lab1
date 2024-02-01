@@ -5,6 +5,8 @@ plugins {
 android {
     namespace = "com.example.lab1"
     compileSdk = 34
+    buildFeatures {
+        viewBinding = true
 
     defaultConfig {
         applicationId = "com.example.lab1"
@@ -14,6 +16,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
     }
 
     buildTypes {
